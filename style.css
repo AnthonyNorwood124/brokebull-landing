@@ -112,3 +112,47 @@ footer {
     font-size: 0.9rem;
     color: #888;
 }
+
+.market-winners {
+    background: #1c1c2b;
+    padding: 4rem 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.market-winners h2 {
+    color: #bb86fc;
+    margin-bottom: 2rem;
+}
+
+.winners-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.winner-card {
+    background: #2e2e40;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.winner-card h3 {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.winner-card p {
+    color: #cccccc;
+    margin: 0.25rem 0;
+}
+
+.winner-card img {
+    margin-top: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
