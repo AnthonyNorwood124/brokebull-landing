@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #0f0f1a;
+    color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+header.hero {
+    background: linear-gradient(145deg, #2d0d56, #5b00a0);
+    text-align: center;
+    padding: 6rem 0;
+}
+
+header.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+header.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #e0e0e0;
+}
+
+.cta-button {
+    background: #ffffff;
+    color: #5b00a0;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section.features {
+    background: #1d1d2e;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.feature {
+    margin-bottom: 2rem;
+}
+
+.feature h2 {
+    color: #bb86fc;
+    margin-bottom: 0.5rem;
+}
+
+section.how-it-works {
+    background: #2e2e40;
+    padding: 4rem 0;
+    text-align: left;
+}
+
+section.how-it-works h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #bb86fc;
+}
+
+section.how-it-works ol {
+    padding-left: 2rem;
+}
+
+section.cta-banner {
+    background: #5b00a0;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+section.cta-banner h2 {
+    margin-bottom: 1rem;
+}
+
+section.cta-banner form input[type="email"] {
+    padding: 0.75rem;
+    width: 300px;
+    max-width: 90%;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+section.cta-banner form button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background: #ffffff;
+    color: #5b00a0;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    background: #0f0f1a;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
