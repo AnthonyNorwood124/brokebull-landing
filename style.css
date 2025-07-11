@@ -362,3 +362,22 @@ footer {
 .stripe-button:hover {
     background: #5146f6;
 }
+
+.thank-you {
+    background: #0f0f1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.thank-you h1 {
+    font-size: 2.5rem;
+    color: #bb86fc;
+    margin-bottom: 1.5rem;
+}
+
+.thank-you p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #cccccc;
+}
