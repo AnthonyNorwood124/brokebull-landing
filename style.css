@@ -156,3 +156,152 @@ footer {
     width: 100%;
     height: auto;
 }
+
+.testimonials {
+    background: #1a1a29;
+    padding: 4rem 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.testimonials h2 {
+    color: #bb86fc;
+    margin-bottom: 2rem;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background: #2b2b3d;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.testimonial-card p {
+    font-style: italic;
+    color: #cccccc;
+    margin-bottom: 1rem;
+}
+
+.testimonial-card h4 {
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.founder-bio {
+    background: #0f0f1a;
+    color: #ffffff;
+    padding: 4rem 0;
+}
+
+.bio-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.bio-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.bio-text h2 {
+    color: #bb86fc;
+    margin-bottom: 1rem;
+}
+
+.bio-text p {
+    margin-bottom: 1rem;
+    color: #cccccc;
+}
+
+.bio-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.bio-image img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.pricing {
+    background: #1c1c2b;
+    padding: 4rem 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pricing h2 {
+    color: #bb86fc;
+    margin-bottom: 2rem;
+}
+
+.pricing-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.pricing-card {
+    background: #2e2e40;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.pricing-card.featured {
+    border: 2px solid #bb86fc;
+    background: #322244;
+}
+
+.pricing-card h3 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.pricing-card .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #bb86fc;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.pricing-card ul li {
+    margin-bottom: 0.5rem;
+    color: #cccccc;
+}
+
+.pricing-card button {
+    background: #bb86fc;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pricing-card button:hover {
+    background: #a45de0;
+}
