@@ -194,3 +194,44 @@ footer {
     color: #ffffff;
     font-weight: normal;
 }
+
+.founder-bio {
+    background: #0f0f1a;
+    color: #ffffff;
+    padding: 4rem 0;
+}
+
+.bio-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.bio-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.bio-text h2 {
+    color: #bb86fc;
+    margin-bottom: 1rem;
+}
+
+.bio-text p {
+    margin-bottom: 1rem;
+    color: #cccccc;
+}
+
+.bio-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.bio-image img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
