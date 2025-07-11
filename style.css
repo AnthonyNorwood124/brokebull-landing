@@ -305,3 +305,45 @@ footer {
 .pricing-card button:hover {
     background: #a45de0;
 }
+
+.algo-flow {
+    background: #1d1d2e;
+    padding: 4rem 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.algo-flow h2 {
+    color: #bb86fc;
+    margin-bottom: 2rem;
+}
+
+.flow-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.step {
+    background: #2e2e40;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.step .icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.step h3 {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.step p {
+    color: #cccccc;
+}
