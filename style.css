@@ -347,3 +347,18 @@ footer {
 .step p {
     color: #cccccc;
 }
+
+.stripe-button {
+    display: inline-block;
+    background: #635bff;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.stripe-button:hover {
+    background: #5146f6;
+}
