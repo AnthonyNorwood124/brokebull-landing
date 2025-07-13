@@ -1,29 +1,52 @@
 
-.thank-you {
-    background: #0f0f1a;
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
     color: #ffffff;
+    background-color: #000000;
+}
+
+.hero {
+    background: linear-gradient(135deg, #6e44ff, #000000);
     text-align: center;
-    padding: 6rem 0;
+    padding: 60px 20px;
 }
-.thank-you h1 {
-    font-size: 2.5rem;
-    color: #bb86fc;
-    margin-bottom: 1.5rem;
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 20px;
 }
-.thank-you p {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-    color: #cccccc;
-}
+
 .cta-button {
-    display: inline-block;
-    background: #635bff;
-    color: #ffffff;
-    padding: 0.75rem 1.5rem;
-    border-radius: 5px;
+    background-color: #6e44ff;
+    color: #fff;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
     text-decoration: none;
-    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s ease;
 }
+
 .cta-button:hover {
-    background: #5146f6;
+    background-color: #4a2ecc;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section.dark {
+    background-color: #1a1a1a;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    font-size: 14px;
 }
